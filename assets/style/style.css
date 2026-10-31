@@ -58,3 +58,10 @@ li {
     width: 100%;
 }
 
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/capa-filmes-de-terror-netflix-halloween-2026.jpg');
+    background-repeat: no-repeat;
+}
+
