@@ -111,3 +111,80 @@ button {
     height: 200px;
 
 }
+
+.netflix-footer {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px 4% 30px 4%;
+            color: #737373; 
+            font-size: 14px;
+            width: 100%;
+        }
+
+        .footer-contact {
+            margin-bottom: 30px;
+        }
+
+        .footer-contact a {
+            color: #737373;
+            text-decoration: none;
+        }
+
+        .footer-contact a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .footer-links {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 30px;
+            list-style: none;
+        }
+
+        .footer-links li a {
+            color: #737373;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .footer-links li a:hover {
+            text-decoration: underline;
+        }
+
+        /* SELETOR DE IDIOMA */
+        .language-selector {
+            margin-bottom: 25px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .language-selector select {
+            background-color: rgba(0, 0, 0, 0.4);
+            border: 1px solid #333;
+            color: #999;
+            padding: 12px 35px 12px 15px;
+            border-radius: 4px;
+            font-size: 14px;
+            appearance: none; /* Remove a seta padrão do navegador */
+            -webkit-appearance: none;
+            cursor: pointer;
+        }
+
+        /* Ícone de seta customizado para o select */
+        .language-selector::after {
+            content: "▼";
+            font-size: 10px;
+            color: #999;
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+
+        .footer-country {
+            font-size: 12px;
+            margin-top: 10px;
+        }
