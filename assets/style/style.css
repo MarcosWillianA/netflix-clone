@@ -58,10 +58,56 @@ li {
     width: 100%;
 }
 
-main {
+#container {
+    display: flex;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     background-image: url('../img/capa-filmes-de-terror-netflix-halloween-2026.jpg');
     background-repeat: no-repeat;
+    padding: 16px;
 }
 
+#primeira-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;   
+    border: solid 1px pink;
+}
+
+#netflix-filme-logo {
+    width: 550px;
+    height: 250px;
+}
+
+#botoes-de-assistir {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    border: solid 1px limegreen;
+}
+
+button {
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+#mais-informacoes {
+    background-color: rgba(218, 218, 218, .5);
+}
+
+#container-carrossel {
+    border: solid 1px lightgreen;
+}
+
+.itens-carrossel {
+    display: inline-block;
+}
+
+.itens-carrossel img {
+    width: 350px;
+    height: 200px;
+
+}
