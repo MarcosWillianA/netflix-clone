@@ -1,3 +1,7 @@
+/* 
+Alunos: Marcos Willian, Israel, Patrick, Mateus, Maria do Socorro, Tailana  
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -22,14 +26,12 @@ img {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 16px 32px;
-    border: solid 1px lightblue;
+    padding: 16px 32px;    
 }
 
 #menu-esquerdo {
     display: flex;
     width: 70%;
-    border: solid 1px coral;
 }
 
 #netflix-logo {    
@@ -44,9 +46,7 @@ nav {
 
 ul {
     padding: 16px 0;
-    list-style-type: none;
-    border: solid 1px yellowgreen;
-    
+    list-style-type: none;    
 }
 
 li {
@@ -71,8 +71,7 @@ li {
 #primeira-section {
     display: flex;
     justify-content: space-between;
-    width: 100%;   
-    border: solid 1px pink;
+    width: 100%;
 }
 
 #netflix-filme-logo {
@@ -84,7 +83,6 @@ li {
     display: flex;
     gap: 16px;
     padding: 16px;
-    border: solid 1px limegreen;
 }
 
 button {
@@ -98,9 +96,7 @@ button {
     background-color: rgba(218, 218, 218, .5);
 }
 
-#container-carrossel {
-    border: solid 1px lightgreen;
-}
+
 
 .itens-carrossel {
     display: inline-block;
